@@ -3,6 +3,99 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ img{
+    width: 100%;
+ }
 /*Debug*/
 /*General*/
+.container {
+    width: 100vw;
+    height:calc(100vh - 100px);
+    background-color: #000000;
+    position: relative;
+    
+}
+.top-right-btn {
+    color: white;  
+    position: absolute;
+    top: 7px;
+    right: 20px;
+}    
+.top-right-btn #sv {
+    background-color: #4A4A4A;
+    width: 150px;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.top-right-btn #enlarge {
+    background-color: #4A4A4A;
+    width: 50px;
+    font-size: 0.8rem; 
+    text-decoration: none;  
+}
+.view-container {
+    max-height: 700px;
+    padding: 100px;
+}
+.img-container {
+    max-width: 300px;
+    max-height: 200px;
+    margin: 10px 5px;
+    position: relative;
+}
+.name {
+    color: white;
+    background-color: #4A4A4A;
+    opacity: 0.7;
+    width: 90px;
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+/*FOOTER*/
+footer {
+    width: 100vw;
+    min-height: 100px;
+    background-color: #222222;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.my-col  {
+
+}
+.footer-container .my-row .my-col {
+    color: white;
+    padding: 20px 10px;
+    align-items: center;
+
+}
+.footer-container .my-row .my-col li{
+    list-style: none;
+    cursor: pointer;   
+}   
+.footer-container .my-row .my-col li:first-child:not(.frecciasu){
+    font-size: 1.6rem;
+}     
+.footer-container .my-row .my-col #share-btn {
+    color: #4BC800;
+}
+
+.btn-end {
+    height: 100px;
+    width: 100px;
+    background-color: #4A4A4A;
+    color: red;
+    cursor: pointer; 
+}
